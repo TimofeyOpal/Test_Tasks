@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	color:white;
+	font-size:20px;
+}
+#pointer {
+  width: 310px;
+  height: 60px;
+  position: relative;
+  
+  background: -webkit-linear-gradient(0deg, rgb(107, 107, 107), rgb(214, 214, 214) 50%, rgb(126, 126, 126));
+background: -moz-linear-gradient(0deg, rgb(107, 107, 107), rgb(214, 214, 214) 50%, rgb(126, 126, 126));
+background: linear-gradient(0deg, rgb(107, 107, 107), rgb(214, 214, 214) 50%, rgb(126, 126, 126));
+text-align: center;
+}
+
+#pointer:before {
+      content: "";
+    position: absolute;
+    right: -15px;
+    bottom: 0;
+    width: 20px;
+    height: 0px;
+    border-left: 15px solid transparent;
+    border-top: 30px solid white;
+    border-bottom: 30px solid white;
+    background: -webkit-linear-gradient(90deg, rgb(107, 107, 107), rgb(214, 214, 214) 50%, rgb(126, 126, 126));
+background: -moz-linear-gradient(90deg, rgb(107, 107, 107), rgb(214, 214, 214) 50%, rgb(126, 126, 126));
+border-color: linear-gradient(90deg, rgb(107, 107, 107), rgb(214, 214, 214) 50%, rgb(126, 126, 126));
+}
+#pointer1 {
+  width: 310px;
+  height: 60px;
+  position: relative;
+  background: red;
+  background: -webkit-linear-gradient(0deg, rgb(3, 152, 40), rgb(150, 186, 165) 50%, rgb(3, 152, 40));
+background: -moz-linear-gradient(0deg, rgb(3, 152, 40), rgb(150, 186, 165) 50%, rgb(3, 152, 40));
+background: linear-gradient(0deg, rgb(3, 152, 40), rgb(150, 186, 165) 50%, rgb(3, 152, 40));
+text-align: center;
+}
+#pointer1:after {
+    content: "";
+    position: absolute;
+   
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 15px solid white;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+   
+}
+#pointer1:before {
+        content: "";
+    position: absolute;
+    right: -15px;
+    bottom: 0;
+    width: 20px;
+    height: 0px;
+    border-left: 15px solid transparent;
+    border-top: 30px solid white;
+    border-bottom: 30px solid white;
+    background: -webkit-linear-gradient(90deg, rgb(107, 107, 107), rgb(214, 214, 214) 50%, rgb(126, 126, 126));
+}
+#pointer2 {
+  width: 310px;
+  height: 60px;
+  position: relative;
+  background: red;
+  background: -webkit-linear-gradient(0deg, rgb(107, 107, 107), rgb(214, 214, 214) 50%, rgb(126, 126, 126));
+background: -moz-linear-gradient(0deg, rgb(107, 107, 107), rgb(214, 214, 214) 50%, rgb(126, 126, 126));
+background: linear-gradient(0deg, rgb(107, 107, 107), rgb(214, 214, 214) 50%, rgb(126, 126, 126));
+text-align: center;
+}
+#pointer2:after {
+    content: "";
+    position: absolute;
+   
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 15px solid white;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+
+}
+
+.pointer_1{
+	position: absolute;
+	top: 300px;
+
+}
+.pointer_2{
+position: absolute;
+    top: 300px;
+    left: 305px;
+}
+.pointer_3{
+    position: absolute;
+    top: 300px;
+    left: 610px;
+}
+p {
+	padding-top: 15px;
+}
+.p{
+	text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
+-webkit-text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
+-moz-text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
+font-size:20px;
+color:rgb(255, 255, 255);
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+
+	padding: 0;
+	margin: 0;
+	
+
+}
+a { 
+   text-decoration: none; /* Отменяем подчеркивание у ссылки */
+   font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color:black;
+  display: block;
+   } 
+body{
+	background: #E5E5E5;
+}
+main{
+	display: flex;
+	 
+}
+.button_item_nav{
+	padding: 10px 20px 10px 20px;
+	background: white;
+	font-family: 'Roboto', sans-serif;
+	border: none;
+	position: absolute;
+	top: 40%;
+    text-align: center;
+    left: 60%;
+    cursor: pointer;
+	
+}
+nav{
+position: absolute;
+    left: 40%;
+     top: 40%;
+}
+.dropdown-child {
+	background-color: #CCCCCC;
+border: 1px solid #000000;
+box-sizing: border-box;
+background-position: top;
+border-radius: 10px;
+box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.25);
+width: 358px;
+top: 40%;
+display: none;
+
+}
+.dropdown-child li{
+ padding: 10px 20px;
+     width: 316px;
+     list-style-type:none;
+}
+.dropdown-child li:nth-child(2):hover{
+	background-color: #9C9C9C;
+}
